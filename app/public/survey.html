@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FriendFinder</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cerulean/bootstrap.min.css" rel="stylesheet" integrity="sha384-zF4BRsG/fLiTGfR9QL82DrilZxrwgY/+du4p/c7J72zZj+FLYq4zY00RylP9ZjiT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class= "container">
+    <h2><strong>Survey Questions</strong></h2>
+    <hr>
+    <h3><strong>About You</strong></h3>
+
+        <h4>Name (required)</h4>
+                
+                
+        <input type="text" id="name" placeholder="Name" class="form-control" required="" style="font-weight: bold; font-size: 20px; border-radius: 3px; padding: 5px; box-shadow: 2px 2px;">   
+        <h4>Link to photo image (required)</h4>                                
+
+        <input type="text" id="photo" placeholder="https://example.com/users/" class="form-control" required="" style="font-weight: bold; font-size: 20px; border-radius: 3px; padding: 5px; box-shadow: 2px 2px;"> 
+    <hr>
+
+    <h3><strong>Question 1</strong></h3>
+        <h4>Half of single Americans lie on their dating profile.</h4>
+        <select class="chosen-select" id="q1" style="font-weight: bold; border-radius: 3px; padding: 5px; box-shadow: 2px 2px;">
+            <option selected>Select Option</option>         
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+      
+    <h3><strong>Question 2</strong></h3>
+        <h4>When you get romantically involved, you tell your partner just about everything.</h4>
+            <select class="custom-select" id="02" style="font-weight: bold; border-radius: 3px; padding: 5px; box-shadow: 2px 2px;">
+                <option selected>Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+                
+
+    <h3><strong>Question 3</strong></h3>
+        <h4>It’s difficult for you to let people emotionally close to you.</h4>
+        <select class="custom-select" id="03" style="font-weight: bold; border-radius: 3px; padding: 5px; box-shadow: 2px 2px;">
+            <option selected>Select Option</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+    <h3><strong>Question 4</strong></h3>
+        <h4>You try to be respectful of all opinions different from your own.</h4>
+        <select class="custom-select" id="04" style="font-weight: bold; border-radius: 3px; padding: 5px; box-shadow: 2px 2px;">
+            <option selected>Select Option</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select> 
+
+    <h3><strong>Question 5</strong></h3>
+        <h4>You prefer long hikes with a picnic as a date rather than a restaurant-movie night.</h4>
+        <select class="custom-select" id="05" style="font-weight: bold; border-radius: 3px; padding: 5px; box-shadow: 2px 2px;">
+            <option selected>Select Option</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+    <h3><strong>Question 6</strong></h3>
+        <h4>YOu enjoy helping people.</h4>
+        <select class="custom-select" id="06" style="font-weight: bold; border-radius: 3px; padding: 5px; box-shadow: 2px 2px;">
+            <option selected>Select Option</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+    <h3><strong>Question 7</strong></h3>
+        <h4>You are open to meet someone who already has children.</h4>
+        <select class="custom-select" id="07" style="font-weight: bold; border-radius: 3px; padding: 5px; box-shadow: 2px 2px;">
+            <option selected>Select Option</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+    <h3><strong>Question 8</strong></h3>
+        <h4>You consider yourself an organized person.</h4>
+        <select class="custom-select" id="08" style="font-weight: bold; border-radius: 3px; padding: 5px; box-shadow: 2px 2px;">
+            <option selected>Select Option</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+    <h3><strong>Question 9</strong></h3>
+        <h4>People rarely make you angry.</h4>
+        <select class="custom-select" id="09" style="font-weight: bold; border-radius: 3px; padding: 5px; box-shadow: 2px 2px;">
+            <option selected>Select Option</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+    <h3><strong>Question 10</strong></h3>
+        <h4>You try to accommodate the other person’s position.</h4>
+        <select class="custom-select" id="10" style="font-weight: bold; border-radius: 3px; padding: 5px; box-shadow: 2px 2px;">
+            <option selected>Select Option</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>   
+
+    <br>
+    <br>
+    <br>  
+
+    <button type="button" class="btn btn-primary btn-lg btn-block"><i class="far fa-check-circle"></i> Submit</button>    
+
+    <hr>  
+    <footer>
+        <div class= "container">
+            <p><a href=" ">API Friends List</a> || <a href="https://github.com/FriendFinder">GitHub Repo</a></p>
+        </div>
+    </footer>
+
+    How to disply results??
+
+</div>
+
+
+
+
+  </body>
+</html>  
+   
+  
+  
+    
+    
+
+    
+
+
+
+
+
+    
+
+
