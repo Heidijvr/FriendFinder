@@ -1,38 +1,56 @@
 // Dependencies
-var express = require('express')
-var path = require('path')
-var bodyParser = require('body-parser')
+var express = require('express');
+var app = express();
+var bodyParser = require('body-parser');
 
-var app = express()
-var PORT = process.env.PORT || 3000;
- 
-app.get('/', function (req, res) {
-  res.send('Hello World')
-})
+var PORT = process.env.PORT || 8080;
 
+// var path = require('path');
 
-// Sets up the express app to handle data parsing
-app.use(bodyParser.urlencoded({ extended: false }))
+// create application/json parser
+var jsonParser = bodyParser.json()
  
-// parse application/json
-app.use(bodyParser.json())
+// create application/x-www-form-urlencoded parser
+var urlencodedParser = bodyParser.urlencoded({ extended: false })
+
+// parse various different custom JSON types as JSON
+app.use(bodyParser.json({ type: 'application/*+json' }))
  
-app.use(function (req, res) {
-  res.setHeader('Content-Type', 'text/plain')
-  res.write('you posted:\n')
-  res.end(JSON.stringify(req.body, null, 2))
-})
+// parse some custom thing into a Buffer
+app.use(bodyParser.raw({ type: 'application/vnd.custom-type' }))
+ 
+// parse an HTML body into a string
+app.use(bodyParser.text({ type: 'text/html' }))
+
+// Sets the HTML routes in this file
+require("./app/routing/htmlRoutes.js")(app);
+// app.use('/', htmlRoutes);
+
+// // Sets the API routes in this file
+require("./app/routing/apiRoutes.js")(app);
+
 
 // Start our server so that it can begin listening to client requests.
 app.listen(PORT, function() {
-    // Log (server-side) when our server has started
-    console.log("App listening on PORT: " + PORT);
-    });
+// Log (server-side) when our server has started
+console.log("App listening on PORT: " + PORT);
+});
 
-// Requires and sets the HTML routes in this file
-var htmlRoutes = require('./app/routing/htmlRoutes.js');
-app.use('/', htmlRoutes);
 
-// Requires and sets the API routes in this file
-var apiRoutes = ('.app/routing/apiRouting.js');
-app.use('/', apiRoutes);
+
+
+// var apiRoutes = ('.app/routing/apiRoutes.js');
+// app.use('/', apiRoutes);
+
+
+ 
+// app.get('/', function (req, res) {
+//   res.send('Hello World')
+// })
+
+
+
+
+
+
+
