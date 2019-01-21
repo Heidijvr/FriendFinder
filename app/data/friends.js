@@ -1,7 +1,7 @@
 var friends = [
     {
         "name": "Ahmed",
-        "photo": "https://www.google.com/search?rlz=1C1NDCM_enUS785US785&biw=1920&bih=920&tbm=isch&sa=1&ei=i05CXN2SAeaM0gLu1JUo&q=jpg+people+faces+images&oq=jpg+people+faces+images&gs_l=img.3...53033.56721..57453...0.0..0.40.298.8......1....1..gws-wiz-img.VBPqJbIlXMQ#imgrc=vHr5YBld6d60mM:",
+        "photo": "https://i.pinimg.com/236x/61/28/32/612832c27fc272bc22fcc355b399715e--martin-schoeller-celebrity-portraits.jpg",
         "scores":[
             2,
             1,
@@ -69,7 +69,7 @@ var friends = [
 
     {
         "name": "Chris",
-        "photo": "",
+        "photo": "http://facelab.org/People/images/smile/ben.jpg",
         "scores":[
             2,
             1,

@@ -10,7 +10,7 @@ module.exports = function(app) {
     });
 
     // Set the post for the api/friends route
-    app.post('/api/friends', function(req, res) {
+    app.post("/api/friends", function(req, res) {
 
         var bestMatch = {
             name: "",
