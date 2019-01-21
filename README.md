@@ -6,10 +6,11 @@ This FriendFinder application is a compatibility-based dating app. It is a full-
 
 https://friend-finder-app55.herokuapp.com/
 
-## Usage
+### Front page
 
 <img src="https://github.com/Heidijvr/FriendFinder/blob/master/Images/home.png" alt Friend Finder Home Page>
 ***
+
 ## Requirements
 
 - Use express and body-parser npm packages in the server.js file
