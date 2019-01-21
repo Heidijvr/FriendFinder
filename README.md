@@ -8,7 +8,7 @@ https://friend-finder-app55.herokuapp.com/
 
 ## Usage
 
-
+https://github.com/Heidijvr/FriendFinder/blob/master/Images/home.png
 
 ## Requirements
 
@@ -18,7 +18,7 @@ https://friend-finder-app55.herokuapp.com/
 - Separate file for storing friends (friends.js)
 - 10-question survey to assess uniqueness of users
 - Calculate best match for user once survey is completed and return that match to the user via *modal*
-- *Alert* when user has not filled in the whole form when submitting.
+- **Alert** when user has not filled in the whole form when submitting.
 
 ## Technologies Used
 
@@ -37,5 +37,6 @@ There are 2 separate HTML files (home.html and survey.html) that serve as the fr
 Our 2 routing files (htmlRoutes.js and apiRoutes.js) determine the back-end logic (based on the request being made, the response that gets sent to the browser); the HTML routes display the survey and the homepage based on the URL that is accessed, and the API routes send back existing content in our server-side data or add new friends.
 Best match is calculated by finding the friend with the minimal difference in scores and then sending that friend to the browser as a JSON object.
 A modal is then toggled, displaying the the best match to the person who just took the survey.
+***
 
 This is an assignment is in fulfillment of the requirements for the bootcamp of the University of Washington (September 2018 - April 2019).
