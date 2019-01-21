@@ -8,7 +8,7 @@ https://friend-finder-app55.herokuapp.com/
 
 ## Usage
 
-https://github.com/Heidijvr/FriendFinder/blob/master/Images/home.png
+<img src="https://github.com/Heidijvr/FriendFinder/blob/master/Images/home.png" alt Friend Finder Home Page>
 
 ## Requirements
 
