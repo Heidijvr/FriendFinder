@@ -39,4 +39,4 @@ https://friend-finder-app55.herokuapp.com/
 * A modal is then toggled, displaying the the best match to the person who just took the survey.
 ***
 
-This is an assignment is in fulfillment of the requirements for the bootcamp of the University of Washington (September 2018 - April 2019).
+This assignment is in fulfillment of the requirements for the bootcamp of the University of Washington (September 2018 - April 2019).

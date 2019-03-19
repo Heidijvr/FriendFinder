@@ -35,17 +35,6 @@ console.log("App listening on PORT: " + PORT);
 
 
 
-// var apiRoutes = ('.app/routing/apiRoutes.js');
-// app.use('/', apiRoutes);
-
-
- 
-// app.get('/', function (req, res) {
-//   res.send('Hello World')
-// })
-
-
-
 
 
 
