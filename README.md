@@ -3,7 +3,8 @@
 This FriendFinder application is a compatibility-based dating app. It is a full-stack application that uses a survey to gain information; it compares the user's input, and finds the best match between individuals. The name and the picture of the best matched individual gets diplayed in a modal.
 
 
-[**Try out the Application here!**]https://friend-finder-app55.herokuapp.com/( "Heroku Homepage")
+[**Try out the Application here!**]https://friend-finder-app55.herokuapp.com/("Heroku Homepage")
+
 
 ### Home page
 
