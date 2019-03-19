@@ -8,6 +8,7 @@ This FriendFinder application is a compatibility-based dating app. It is a full-
 ### Home page
 
 <img src="https://github.com/Heidijvr/FriendFinder/blob/master/Images/home.png" alt Friend Finder Home Page>
+
 ## Requirements
 
 - Use express and body-parser npm packages in the server.js file
