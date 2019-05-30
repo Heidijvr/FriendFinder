@@ -1,6 +1,6 @@
 # FriendFinder
 
-This is a compatibility-based dating app. It uses a survey to gain information of the user; then uses this information to compare to other users, and this way finds the best match between two people. The name and the picture of the best matched individual gets displayed in a modal.
+This is a compatibility-based dating app which uses a survey to gain information of the user; this information is compared to other users to find the best match between two people. The name and the picture of the best matched individual gets displayed in a modal.
 
 
 [**Try out the Application here!**](https://friend-finder-app55.herokuapp.com/ "Heroku Homepage")
