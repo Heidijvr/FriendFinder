@@ -33,7 +33,7 @@ This FriendFinder application is a compatibility-based dating app. It uses a sur
 
 * Our server.js file sets up the Express server, specifying our port number, the npm packages that need to be loaded, and also the routes.
 * There are 2 separate HTML files (home.html and survey.html). They serve as the front-end portion of the code and determine what the user sees (homepage and survey).
-* The 2 routing files (htmlRoutes.js and apiRoutes.js) determine the back-end logic; the HTML routes display the survey and the homepage based on the URL that is accessed. The API routes send back existing content in our server-side data or add new friends.
+* There are 2 routing files (htmlRoutes.js and apiRoutes.js); the HTML routes display the survey and the homepage based on the URL that is accessed. The API routes send back existing content in our server-side data / add new friends.
 * The *best match* is calculated by finding the friend with the minimal difference in scores and then sending that friend to the browser as a JSON object.
 * A modal is then toggled, displaying the the best match to the person who just took the survey.
 ***
